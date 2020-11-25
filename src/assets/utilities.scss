@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 14px !important;
+  @media screen and (min-width: 600px) {
+    font-size: 14px !important;
+  }
+  @media screen and (min-width: 960px) {
+    font-size: 14px !important;
+  }
+  @media screen and (min-width: 1264px) {
+    font-size: 14px !important;
+  }
+  @media screen and (min-width: 1424px) {
+    font-size: 16px !important;
+  }
+  @media screen and (min-width: 1904px) {
+    font-size: 16px !important;
+  }
+}
+.v-btn {
+  font-family: "Work Sans", sans-serif !important;
+}
+.link {
+  text-decoration: none;
+}
+.bg-white {
+  background-color: $white !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.full-screen {
+  min-height: 100vh;
+}
+.round {
+  border-radius: 100% !important;
+}
+.vertical-align-middle {
+  vertical-align: middle;
+}
+.vertical-align-text-top {
+  vertical-align: text-top;
+}

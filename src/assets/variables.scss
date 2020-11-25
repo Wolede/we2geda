@@ -1,0 +1,109 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+// Globals
+$heading-font-family: "Work Sans", sans-serif;
+$body-font-family: "Source Sans Pro", sans-serif;
+$font-size-root: 16px;
+$border-radius-root: 4px;
+
+$btn-font-weight: 800;
+$btn-text-transform: capitalize;
+
+// Light theme
+$material-light: (
+  "background": #ffffff,
+  "app-bar": #ffffff
+);
+
+// Colors
+$black: #000000;
+$dark-grey: #272931;
+$light-grey: #515254;
+$white: #ffffff;
+$info: #eeeeee;
+$border: #c2c2c2;
+
+$headings: (
+  "h1": (
+    //141px
+      "size": 8.8rem,
+    "weight": 900,
+    "line-height": 1.1em
+  ),
+  "h2": (
+    //77px
+      "size": 4.8rem,
+    "weight": 900,
+    "line-height": 1.2em
+  ),
+  "h3": (
+    //69px
+      "size": 4.3rem,
+    "weight": 800,
+    "line-height": 1.5em
+  ),
+  "h4": (
+    //55px
+      "size": 3.4rem,
+    "weight": 800,
+    "line-height": 1.4em
+  ),
+  "h5": (
+    //34px
+      "size": 2.1rem,
+    "weight": 900,
+    "line-height": 1.5em
+  ),
+  "h6": (
+    //33px
+      "font-family": $body-font-family,
+    "size": 2rem,
+    "weight": 400,
+    "line-height": 1.5em
+  ),
+  "subtitle-1": (
+    //   25px
+      "size": 1.6rem,
+    "weight": 400,
+    "line-height": 1.5em
+  ),
+  "subtitle-2": (
+    // 24px
+      "size": 1.5rem,
+    "weight": 400,
+    "line-height": 1.5em
+  ),
+  "body-1": (
+    // 22px
+      "size": 1.3rem,
+    "weight": 400,
+    "line-height": 1.5rem
+  ),
+  "body-2": (
+    // 18px
+      "size": 1.1rem,
+    "weight": 400,
+    "line-height": 1.5em
+  ),
+  "button": (
+    "font-family": $heading-font-family,
+    "size": 1.6rem,
+    "weight": 800,
+    "line-height": 2.25rem,
+    "text-transform": capitalize
+  ),
+  "caption": (
+    // 16px
+      "size": 1rem,
+    "weight": 300,
+    "line-height": 1.25rem
+  ),
+  "overline": (
+    "size": 0.75rem,
+    "weight": 500,
+    "line-height": 2rem
+  )
+);
