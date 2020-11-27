@@ -40,7 +40,7 @@
                 :to="item.to"
                 depressed
                 color="transparent"
-                x-large
+                large
                 >{{ item.title }}</v-btn
               >
             </v-toolbar-items>
@@ -84,6 +84,10 @@ export default {
         {
           title: "News",
           to: "/news"
+        },
+        {
+          title: "Contact",
+          to: "/contact"
         }
       ]
     };

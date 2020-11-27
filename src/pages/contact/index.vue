@@ -1,14 +1,13 @@
 <template>
   <div>
     <Hero backgroundImage="hero.jpg" />
-    <Activity />
     <v-container>
       <v-row>
         <v-col cols="12" sm="12" md="4">
-          <MediaButtons />
+          <MediaButtons :showTitle="false" />
         </v-col>
         <v-col cols="12" sm="12" md="8">
-          <Posts />
+          <ContactDetails />
         </v-col>
       </v-row>
     </v-container>
@@ -17,16 +16,14 @@
 
 <script>
 import Hero from "~/components/Hero";
-import Activity from "~/components/Layouts/NewsLayout/Activity";
 import MediaButtons from "~/components/Layouts/NewsLayout/MediaButtons";
-import Posts from "~/components/Layouts/NewsLayout/Posts";
+import ContactDetails from "~/components/Layouts/ContactLayout/ContactDetails";
 
 export default {
   components: {
     Hero,
-    Activity,
     MediaButtons,
-    Posts
+    ContactDetails
   }
 };
 </script>
