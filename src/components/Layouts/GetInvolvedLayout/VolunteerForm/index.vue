@@ -34,7 +34,7 @@ export default {
     return {
       title: "Become a Volunteer",
       description:
-        "A Nation divided cannot stand; any intent of division is a threat to our existence. Enough of the talks, let’s come together and channel our passion into action.",
+        "A Nation divided cannot stand; any intent of division is a threat to our existence.",
       description2:
         "Enough of the talks, let's come together and channel our passion into action"
     };

@@ -1,6 +1,10 @@
 <template>
   <nuxt-link to="/">
-    <img class="logo" alt="We2geda Logo" src="/images/We2geda-Tagline.png" />
+    <img
+      class="logo"
+      alt="We2geda Logo"
+      src="/images/We2geda-logo-white-tagline.png"
+    />
   </nuxt-link>
 </template>
 

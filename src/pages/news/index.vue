@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero backgroundImage="hero.jpg" />
+    <Hero backgroundImage="pic-2.jpg" />
     <Activity />
     <v-container>
       <v-row>

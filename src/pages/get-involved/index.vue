@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero backgroundImage="hero.jpg" />
+    <Hero backgroundImage="steer.jpg" />
     <Communities />
     <VolunteerForm />
   </div>

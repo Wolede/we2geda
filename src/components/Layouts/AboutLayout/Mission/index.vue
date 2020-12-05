@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .image {
-  background-image: url("/images/puzzle.jpg");
+  background-image: url("/images/mission.jpg");
   background-color: rgba($color: $light-grey, $alpha: 0.65);
   //   background-color: rgba($color: $dark-grey, $alpha: 0.8);
   background-position: center center;

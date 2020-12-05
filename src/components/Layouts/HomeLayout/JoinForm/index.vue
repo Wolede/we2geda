@@ -35,7 +35,7 @@ export default {
       title: "Join the Action",
       descriptions: [
         "Nigeria needs you now more than ever. Join this united tribe of people morally committed to a better Nigeria.",
-        "- Come Onboard, Let us Walk the Talk:"
+        "Come Onboard, Let us Walk the Talk:"
       ]
     };
   }

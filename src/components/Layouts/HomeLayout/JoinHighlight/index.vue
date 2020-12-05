@@ -94,7 +94,7 @@ export default {
 <style lang="scss" scoped>
 .join-highlight {
   padding-top: 120px;
-  background-image: url("/images/puzzle.jpg");
+  background-image: url("/images/home-two.jpg");
   background-color: rgba($color: $dark-grey, $alpha: 0.85);
   //   background-color: rgba($color: $dark-grey, $alpha: 0.8);
   background-position: center center;

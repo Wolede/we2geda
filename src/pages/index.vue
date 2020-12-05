@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero page="home" backgroundImage="hero.jpg" />
+    <Hero page="home" backgroundImage="home-header.png" />
     <HomeAbout />
     <JoinForm />
     <JoinHighlight />
