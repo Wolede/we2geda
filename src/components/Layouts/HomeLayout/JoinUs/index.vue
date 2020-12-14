@@ -12,7 +12,7 @@
           depressed
           color="secondary"
           x-large
-          href="https://forms.google.com"
+          href="https://we2geda.tk"
           target="_blank"
         >
           Join Us

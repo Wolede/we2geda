@@ -29,7 +29,7 @@
         <v-container class="pa-0">
           <v-toolbar flat color="transparent" :dark="true" class="elevation-0">
             <!-- <v-app-bar-nav-icon> -->
-            <Logo />
+            <Logo slogan />
             <!-- </v-app-bar-nav-icon> -->
 
             <v-spacer></v-spacer>
@@ -46,7 +46,8 @@
             </v-toolbar-items>
 
             <v-spacer></v-spacer>
-            <v-btn to="/donate" rounded depressed color="accent">Donate</v-btn>
+            <v-btn to="#" outlined rounded depressed color="white">DONATE</v-btn>
+            <v-btn to="https://we2geda.tk" target="_blank" rounded depressed color="accent" class="ml-3">REGISTER</v-btn>
             <v-app-bar-nav-icon
               class="hidden-sm-and-up"
               @click.stop="drawer = !drawer"
@@ -70,23 +71,23 @@ export default {
       drawer: false,
       items: [
         {
-          title: "About",
+          title: "ABOUT",
           to: "/about"
         },
         {
-          title: "Agenda",
+          title: "AGENDA",
           to: "/agenda"
         },
         {
-          title: "Get Involved",
+          title: "GET INVOLVED",
           to: "/get-involved"
         },
         {
-          title: "News",
+          title: "NEWS",
           to: "/news"
         },
         {
-          title: "Contact",
+          title: "CONTACT",
           to: "/contact"
         }
       ]

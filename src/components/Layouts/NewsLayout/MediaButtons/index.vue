@@ -41,25 +41,25 @@ export default {
         {
           name: "facebook",
           icon: "mdi-facebook",
-          url: "",
+          url: "https://www.facebook.com/OfficialWe2Geda",
           color: "blue"
         },
         {
           name: "twitter",
           icon: "mdi-twitter",
-          url: "",
+          url: "https://twitter.com/officialwe2geda",
           color: "blue lighten-3"
         },
         {
           name: "instagram",
           icon: "mdi-instagram",
-          url: "",
+          url: "https://www.instagram.com/officialwe2geda/",
           color: "blue lighten-2"
         },
         {
           name: "whatsapp",
           icon: "mdi-whatsapp",
-          url: "https://wa.me/1XXXXXXXXXX",
+          url: "https://wa.me/2347064326402",
           color: "green"
         }
       ]

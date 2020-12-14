@@ -14,7 +14,7 @@
               depressed
               x-large
               class="transparent accent--text pl-0 mt-10"
-              to="/about"
+              to="/get-involved"
               nuxt
             >
               <span class="text-decoration-underline">
@@ -37,7 +37,7 @@
               light
             >
               <v-img
-                src="https://picsum.photos/id/11/500/300"
+                :src="image"
                 height="180"
                 width="180"
                 style="border-radius:50%"
@@ -53,7 +53,7 @@
               <div class="text-body-2">
                 {{ bio }}
               </div>
-              <v-btn
+              <!-- <v-btn
                 depressed
                 x-large
                 class="transparent accent--text pl-0 mt-6"
@@ -66,7 +66,7 @@
                 <v-icon right>
                   mdi-arrow-right
                 </v-icon>
-              </v-btn>
+              </v-btn> -->
             </v-sheet>
           </div>
         </v-col>
@@ -83,6 +83,7 @@ export default {
       description:
         "We are dedicated to discovering, mentoring, and training the next generation of patriotic leaders, providing them with a competency based-model for leadership development required to drive the much-needed change of the Nigerian State and to make a lasting difference in nation-building.",
       name: "Musa Uche",
+      image: "/images/musa-uche.jpg",
       school: "University of Lagos",
       bio:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore nihil corrupti, nemo unde quibusdam? Quia, dolore alias. Eaque suscipit a iusto modi nobis unde consequuntur quisquam ab, reprehenderit vel!"
@@ -94,7 +95,7 @@ export default {
 <style lang="scss" scoped>
 .join-highlight {
   padding-top: 120px;
-  background-image: url("/images/home-two.jpg");
+  background-image: url("/images/ngr-puzzle.png");
   background-color: rgba($color: $dark-grey, $alpha: 0.85);
   //   background-color: rgba($color: $dark-grey, $alpha: 0.8);
   background-position: center center;

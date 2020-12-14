@@ -27,24 +27,25 @@
                 >connect@we2geda.ng</a
               >
             </div>
-            <div class="text-caption info--text my-2">
+            <div class="text-caption info--text my-2 d-flex align-center">
               <span>
                 Social:
               </span>
-              <span>
+              <span class="d-flex justify-space-between align-center">
                 <v-btn
                   v-for="(item, i) in socialLinks"
                   :key="i"
-                  color="primary"
+                  color="transparent"
                   fab
                   depressed
-                  x-small
+                  small
                   dark
-                  class="mx-1"
                   :href="item.url"
                   target="_blank"
+                  class="mx-1 icon-wrap"
                 >
-                  <v-icon> {{ item.icon }} </v-icon>
+                  <!-- <v-icon> {{ item.icon }} </v-icon> -->
+                  <img :src="item.icon" :alt="item.name" class="icon-image">
                 </v-btn>
               </span>
             </div>
@@ -54,12 +55,12 @@
       <v-divider class="my-6"></v-divider>
       <v-row>
         <v-col cols="12" sm="4" md="4">
-          <div class="text-caption info--text mb-2 text-center">
+          <div class="text-caption info--text mb-2 text-center border-right">
             Paid for by We Together Nigeria
           </div>
         </v-col>
         <v-col cols="12" sm="4" md="4">
-          <div class="text-center">
+          <div class="text-center border-right">
             <span class="info--text"
               >&copy; {{ new Date().getFullYear() }}</span
             >
@@ -69,7 +70,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="4" md="4">
-          <div class="text-caption info--text mb-2 text-center">
+          <div class="text-caption info--text mb-2 text-center border-right">
             In Loving Memory of our Founding Fathers
           </div>
         </v-col>
@@ -102,23 +103,23 @@ export default {
       socialLinks: [
         {
           name: "facebook",
-          icon: "mdi-facebook",
-          url: ""
+          icon: "/images/facebook.svg",
+          url: "https://www.facebook.com/OfficialWe2Geda"
         },
         {
           name: "twitter",
-          icon: "mdi-twitter",
-          url: ""
+          icon: "/images/twitter.svg",
+          url: "https://twitter.com/officialwe2geda"
         },
         {
           name: "instagram",
-          icon: "mdi-instagram",
-          url: ""
+          icon: "/images/instagram.svg",
+          url: "https://www.instagram.com/officialwe2geda/"
         },
         {
           name: "whatsapp",
-          icon: "mdi-whatsapp",
-          url: "https://wa.me/1XXXXXXXXXX"
+          icon: "/images/whatsapp.svg",
+          url: "https://wa.me/2347064326402"
         }
       ]
     };
@@ -129,5 +130,17 @@ export default {
 <style lang="scss" scoped>
 .footer {
   background-color: $dark-grey;
+}
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-image{
+  height: 30px;
+  width: 30px;
+}
+.border-right{
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
 }
 </style>
